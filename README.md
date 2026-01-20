@@ -39,6 +39,7 @@ cd ralph-caludecode-demo
 ```
 
 2) 代码阅读器（Code Reader）工作流：
+> 可以把.code-reader复制到项目目录下
 
 ```bash
 # 在目标代码库根目录执行或指定目标根路径
@@ -50,6 +51,7 @@ python .code-reader/read_loop.py [可选：目标根路径]
 - Phase 2（循环）：每轮从待办选择入口文件，阅读关联上下游，生成对应的 Markdown 文档至 `.code-read/src/...`，并将已完成文件打钩
 
 3) 安全审计循环（Security Audit Loop）工作流：
+> 可以把.security-audit-loop复制到项目目录下
 
 ```bash
 python .security-audit-loop/loop.py [可选：目标根路径]
